@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Travelling website">
+    <meta name="keywords" content="Travel, Destination">
+    <meta name="author" content="Mourad Daoudi">
+    <title>Website</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+    <a class="brand-logo" href="index.html"><img src="./assets/images/logo.png" alt="logo-img"/></a>
+    <h1>Tui</h1>
+    <h2>Discover your smile</h2>
+    <nav class="navbar">
+        <input type="checkbox">
+        <!-- hamburger bars -->
+        <span></span>
+        <span></span>
+        <span></span>
+       <ul class="nav-items">
+           <li><a href="index.html">home</a></li>
+           <li><a href="bestdestinations.html">Best Destination</a></li>
+           <li><a href="tickets.html">Ticket</a></li>
+       </ul> 
+    </nav>
+    </header>
+    <section class="section-p">
+
+        <div class="flex-container column-row-md column-column-sm">
+            <div class="column-xl-8 column-md-7 column-sm-10">
+                <form class="form-cont" action="/some-action" method="POST">
+                    <fieldset>
+                        <legend>Contact Form</legend>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" placeholder="enter your name" required/>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="enter your email" required/>
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" placeholder="Your message" rows="10" required></textarea>
+                        <input type="submit" value="Submit"/>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="column-xl-2 column-md-3 column-sm-10">
+                <aside class="aside-cont">
+                    <h3>Products</h3>
+                    <figure class="fig-article fig-sm fig-prod">
+                        <a href="https://en.wikipedia.org/wiki/Maldives">
+                        <img src="./assets/images/dest-maldives.jpg" alt="image-maldives">
+                        </a>
+                        <figcaption>Image by <a rel="license" href="https://pixabay.com/users/romaneau-834195/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=666122">romaneau</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=666122">Pixabay</a></figcaption>
+                    </figure>
+                    <figure class="fig-article fig-sm fig-prod">
+                        <a href="https://en.wikipedia.org/wiki/Italy">
+                        <img src="./assets/images/dest-italy.jpg" alt="image-maldives">
+                        </a>
+                        <figcaption>Image by <a href="https://pixabay.com/users/lnlnln-1131094/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6587129">Leonhard Niederwimmer</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6587129">Pixabay</a></figcaption>
+                    </figure>
+                    <figure class="fig-article fig-sm fig-prod">
+                        <a href="https://en.wikipedia.org/wiki/Switzerland">
+                        <img src="./assets/images/dest-switzerland.jpg" alt="image-maldives">
+                        </a>
+                        <figcaption>Image by <a href="https://pixabay.com/users/raymark-2255846/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6596074">RayMark</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6596074">Pixabay</a></figcaption>
+                    </figure>
+                    <figure class="fig-article fig-sm fig-prod fig-md-inline">
+                        <a href="https://www.tui.nl/">
+                        <img src="./assets/images/dest-turkey.jpg" alt="image-turkey">
+                        </a>
+                        <figcaption>Image by <a href="https://pixabay.com/users/ben_kerckx-69781/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4873198">Ben Kerckx</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4873198">Pixabay</a></figcaption>
+                    </figure>
+                </aside>
+            </div>
+        </div>
+    </section>
+    
+    <div class="fixed-box">
+        <div class="overlay"></div>
+        <p>Cookie Statement</p>
+    </div>
+    <footer class="footer">
+        <p>&#169; 2021 Mourad Daoudi</p>
+    </footer>
+</body>
+</html>
