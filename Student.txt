@@ -1,4 +1,4 @@
 Student name: Mourad Daoudi
 Student number: 664995
 Student class: IT1C
-URL student GitHub repository: https://github.com/mouradjwz/WebmarkupFinalAssessment.git
+URL student GitHub repository: https://github.com/mouradjwz/WebmarkupFinalAssessment
