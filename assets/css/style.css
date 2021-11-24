@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
 *{
     margin: 0;
     padding:0;
 }
 small{
- display: block;   
+    letter-spacing: 3px;
+    line-height: 1.4em;
+    text-indent:1rem;
+    display: block;
+    text-transform: uppercase;
+    word-spacing: 20px;
+    font-family: 'Notable', sans-serif;
 }
 .on-mobile{
     display: none;
@@ -16,6 +24,7 @@ small{
     background-color: rgb(73, 189, 235);
     width: 100%;
     position: relative;
+
 }
 /* input to capture click event on hamburger*/
 .navbar input{
@@ -39,6 +48,9 @@ small{
   position: relative;
   background: #fff;
   border-radius: 3px;
+  border-color: #FA0;
+  border-width: 3px;
+  border-style: double;
   
   z-index: 1;
   
@@ -83,14 +95,26 @@ small{
 .nav-items{
     list-style: none;
 }
+
 .nav-items li{
     display: inline-block;
     margin-right: 10px;
     margin-top:17px;
 }
+
 .nav-items li:first-child{
     margin-left: 15px;
+    
 }
+
+.nav-items li::first-letter{
+font-size: 20px;
+}
+
+.myLink:selected{
+color: red;
+}
+
 .nav-items li a{
     color:#fff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -116,7 +140,7 @@ small{
 #tbl-tickets tbody td,tfoot td{
     padding: 10px;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Arial', Helvetica;
 }
 #tbl-tickets tbody tr{
     background-color: #fff;
@@ -131,6 +155,7 @@ small{
 
 .fixed-box{
     position: fixed;
+    z-index: 999;
     right: 0px;
     bottom: 0;
     width: 100px;
